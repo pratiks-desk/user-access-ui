@@ -42,11 +42,15 @@
           </goals>
         </execution>
       </executions>
-      <configuration>
-        <mainClass>tests.LoginTestCases</mainClass>
+     
+        <configuration>
+  <mainClass>tests.LoginTestCases</mainClass>
+  <classpathScope>test</classpathScope>
+
       </configuration>
     </plugin>
   </plugins>
 </build>
 
 </project>
+
