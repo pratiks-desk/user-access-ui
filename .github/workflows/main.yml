@@ -20,10 +20,14 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Install Chrome and ChromeDriver
+      uses: browser-actions/setup-chrome@v2
+
     - name: Check Chrome version
       run: chrome --version
 
     - name: Build with Maven
       run: mvn clean install
+
     - name: Run LoginTestCases.java
       run: mvn exec:java
