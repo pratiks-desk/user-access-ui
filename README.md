@@ -73,7 +73,7 @@ To automate UI testing:
 - No frameworks required (TestNG/JUnit not used) — just basic Java + Selenium WebDriver.
 
 ```java
-driver.get("https://pratiks-desk.site/user-access-ui/login.html");
+driver.get("https://pratiks-desk.in/user-access-ui/login.html");
 
 ```
 ## 🤝 Contributing
